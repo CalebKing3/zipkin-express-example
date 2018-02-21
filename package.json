@@ -1,0 +1,20 @@
+{
+  "name": "zipkintutoriallinkedin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb king <caleb.king@webpt.com> (http://blog.example.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-fetch": "^2.0.0",
+    "zipkin": "^0.12.0",
+    "zipkin-context-cls": "^0.11.0",
+    "zipkin-instrumentation-express": "^0.12.0",
+    "zipkin-instrumentation-fetch": "^0.12.0",
+    "zipkin-transport-http": "^0.12.0"
+  }
+}
